@@ -1,5 +1,6 @@
 package com.javacodegeeks.examples;
 
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,6 +13,7 @@ public class StringsCalculatorTest {
     @Before
     public void init() {
         calculator = new StringCalculator();
+        //wigios
     }
 
     @Test
